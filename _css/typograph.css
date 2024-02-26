@@ -1,0 +1,74 @@
+/* =========== RESETS GERAIS - TIPOGRAFIA =========== */
+* {
+    font-family: Inter;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* ============== HEADER =============== */
+
+header li a {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 186.667%;
+}
+
+header li a:hover {
+    color: var(--orange);
+}
+
+.order-btn a:hover {
+    border: 1px solid var(--orange);
+    padding: 8px 64px;
+}
+
+.order-btn a {
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 233%;
+}
+
+/* =================== SECTION BANNER ================= */
+
+
+.banner h2 {
+
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102%;
+
+}
+
+.banner p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.banner button {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 233%;
+}
+
+.banner button:hover {
+    color: var(--orange);
+    background-color: #fff;
+    border: none;
+}
+
+/* ====================== DIV ORDER ==================== */
+
+.order h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
